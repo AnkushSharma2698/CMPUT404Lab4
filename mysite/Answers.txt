@@ -1,0 +1,35 @@
+Question 1
+https://github.com/AnkushSharma2698/CMPUT404Lab4.git
+
+Question 2
+The browser shows a page with a rocket and a greeting saying "The install worked successfully! Congratulations!"
+
+Question 3
+At / django returns a 404 Page not found
+At /polls django returns a 200 "Hello, world. You're at the polls index"
+
+Question 4
+A database migration is an action that synchronizes the database state with the current set of models.
+
+Question 5
+Upon entering the admin page I see a list of models present in the sqlite database. To get custom models to show
+up in the admin page simply register them to the admin site in the admin.py file of the specific application to which
+those models pertain.
+
+Question 6
+When I go to polls/38 I see the output "You're looking at question 38"
+When I go to polls/38/results/ I see the output "You're looking at the results of question 38"
+When I go to polls/38/vote I see the output "You are voting on question 38"
+If I do not put a number I get a 404 page not found
+To allow arbitrary alphabetic characters, in the url simply replace the int typehint with str
+
+Question 7
+It is a bad idea to hardcode URLs into the templates because this causes tight coupling, so if
+you want to change URLs you must change it in multiple places.
+
+Question 8
+The benefits of using a generic view is that it lowers the overall code footprint and abstracts
+generally reusable views. These views should be used for pages that must perform a common task
+that is seen commonly in web apps. As the name states, they are generic, so if you
+wish to create a view that does not perform generically it is not a good idea to use
+generic views.
